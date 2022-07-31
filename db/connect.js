@@ -5,3 +5,6 @@ const connectDB = (url) => {
 }
 
 module.exports = connectDB;
+
+
+// Commit message - Database Connection
