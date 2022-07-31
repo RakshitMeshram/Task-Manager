@@ -7,3 +7,7 @@
 - Implemented Input Validation
 - Used Express Middleware, Routes and Controllers
 - Used Vanilla JS to set up front-end
+
+Work Branch  (Used for Optimization)
+- Implemented asyncWrapper (replace try/catch block) 
+- Implemented next (middleware)
