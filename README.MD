@@ -10,4 +10,5 @@
 
 Work Branch  (Used for Optimization)
 - Implemented asyncWrapper (replace try/catch block) 
-- Implemented next (express middleware) for error handling
+- Implemented next (express middleware) for custom error handling
+- Process Environment Variable for PORT (Setup) 
