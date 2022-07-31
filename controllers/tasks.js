@@ -1,7 +1,6 @@
 const asyncWrapper = require('../middleware/async');
 const { findOneAndUpdate, findByIdAndDelete } = require('../models/Task');
 const Task = require('../models/Task');
-const asyncWrapper = require('../middleware/async')
 
 const getAllTasks = asyncWrapper(async (req, res) => {
     const tasks = await Task.find({})
@@ -12,7 +11,6 @@ const getAllTasks = asyncWrapper(async (req, res) => {
 const createTask = asyncWrapper( async (req,res) => {
         const task = await Task.create(req.body)
         res.status(201).json({ task })    
-    
 })
 
 const getTask = asyncWrapper( async (req, res) => {
